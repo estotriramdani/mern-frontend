@@ -1,0 +1,10 @@
+.link {
+  text-align: center;
+  font-size: 16px;
+  color: #ababab;
+  text-decoration: underline;
+  cursor: pointer;
+  &::hover {
+    color: #7e7e7e;
+  }
+}
