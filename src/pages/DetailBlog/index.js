@@ -8,7 +8,7 @@ const DetailBlog = () => {
   const history = useHistory();
   return (
     <div className="detail-blog-wrapper">
-      <img className="image-cover" src={RegisterBg} />
+      <img className="image-cover" src={RegisterBg} alt="" />
       <p className="blog-title">Title Blog</p>
       <p className="blog-author">Author - Date Post</p>
       <p className="blog-body">
